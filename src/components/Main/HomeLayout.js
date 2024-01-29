@@ -9,7 +9,7 @@ function HomeLayout({ title, children }) {
         <title>{`${title} - Rain.G`}</title>
       </Head>
       <Navbar />
-      <div className="min-h-screen flex flex-col bg-pedram-2">
+      <div className="min-h-screen flex flex-col bg-pedram-4">
         <main className="flex-1">{children}</main>
         <Footer />
       </div>
